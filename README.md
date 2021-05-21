@@ -2,10 +2,16 @@
 Example for User Defined Functions for Lenses SQL engine
 
 # Compile,Build, Package
-This project is using the Maven build system. So to build you should run:
+This project is using the Gradle build system. So to build you should run:
 
+## Windows
 ```bash
-mvn clean package
+gradlew.bat build
+```
+
+## Linux and MacOS
+```bash
+./gradlew build
 ```
 
 # Lenses UDF
