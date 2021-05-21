@@ -17,6 +17,8 @@ version = '1.0.0'
 description = 'lenses-udf-example'
 sourceCompatibility = 11
 
+defaultTasks "clean", "build"
+
 dependencies {
     implementation 'io.lenses:lenses-sql-udf:4.0.0'
     implementation 'ch.hsr:geohash:1.3.0'
